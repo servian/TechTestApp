@@ -69,8 +69,8 @@ func updateDb(cfg db.Config) error {
 		return err
 	}
 
-	fmt.Println("Seeding table with data")
-	err = db.SeedData(cfg)
+	//fmt.Println("Seeding table with data")
+	//err = db.SeedData(cfg)
 
 	return err
 }
